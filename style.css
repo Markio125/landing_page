@@ -77,9 +77,6 @@
 .header .title .image p {
     text-align: center;
 }
-.die {
-    text-decoration: none;
-}
 .mid {
     display: flex;
     flex-direction: column;
@@ -98,6 +95,7 @@
     width: 150px;
     border: 3px solid #3882F6;
     border-radius: 20px;
+    margin-bottom: 5px;
 }
 .mid .tags {
     display: flex;
@@ -126,12 +124,57 @@
     font-size: 36px;
     font-style: italic;
     font-weight: 00;
-    padding-left: 339px;
+    padding-left: 539px;
     text-align: left;
 }
 .quote .person {
     text-align: right;
     font-weight: bolder;
-    padding-right: 339px;
+    padding-right: 550px;
     font-size: 25px;
+}
+.bluebox {
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 1200px;
+    background-color: #3882F6;
+    border-radius: 25px;
+}
+.bluebox .text {
+    text-align: left;
+    color: white;
+}
+#call {
+    font-weight: bolder;
+    font-size: 24px;
+}
+.bluebox .signup {
+    height: 45px;
+    width: 95px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.bluebox .signup p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: auto;
+    margin-top: 10px;
+}
+.die {
+    text-decoration: none;
+}
+.end {
+    background-color: #1F2937;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end p {
+    color: white;
 }
