@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    height: 500px;
+    flex-direction: column;
+}
+.header .top {
+    display: flex;
+    flex: 0 1 auto;
+    height: 100px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.header .top .logo {
+    display: flex;
+    font-weight: bolder;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.header .top .menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+}
+.header .top .menu p {
+    color: #E5E7EB;
+}
+.header .title {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+.header .title .intro {
+    padding: 10px;
+}
+.header .title .intro h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.header .title .intro p {
+    color: white;
+    font-size: 18px;
+}
+.header .title .intro div {
+    height: 35px;
+    width: 85px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    
+}
+.header .title .intro div p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 6px;
+    margin-top: 10px;
+}
+.header .title .image {
+    height: 250px;
+    width: 500px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .title .image p {
+    text-align: center;
+}
+.die {
+    text-decoration: none;
+}
+.mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+.mid .title {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.mid .tags .box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+}
+.mid .tags {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.mid .tags div {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.mid .tags p {
+    text-align: center;
+}
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+}
+.quote .thing {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 00;
+    padding-left: 339px;
+    text-align: left;
+}
+.quote .person {
+    text-align: right;
+    font-weight: bolder;
+    padding-right: 339px;
+    font-size: 25px;
+}
